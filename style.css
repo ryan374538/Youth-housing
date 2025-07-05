@@ -60,6 +60,7 @@
 }
 h2{
     padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .fa-solid.fa-money-check-dollar{
     font-size: 1.5rem;
@@ -75,4 +76,34 @@ h2{
 }
 .card:hover{
     background-color: rgba(255, 255, 255, 0.479);
+    cursor: pointer;
 }
+a button{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 4/1;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 1rem;
+    color: blueviolet;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4px;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+button:hover{
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
