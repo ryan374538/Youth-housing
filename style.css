@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background:linear-gradient(to right,rgba(128, 0, 128, 0.774),rgba(0, 0, 255, 0.71)) ;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.content{
+    background:linear-gradient(to left,purple,blue) ;
+    width: 100%;
+    max-width: 1100px;
+    min-height: 85vh;
+    border-radius: 30px;
+}
+.heading{
+    text-align: center;
+    padding-top: 10vh;
+    font-size: clamp(1.5rem,2vw,5rem);
+    color: white;
+}
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 4vw; 
+    justify-content: center;
+    padding-top: 10vh;
+    width: 100%;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.299);
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    border-radius: 20px;
+    border: solid white 1px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.fa-solid.fa-house-chimney{
+    font-size: clamp(4rem,6vw,5rem);
+    padding-bottom: 20px;
+    background: linear-gradient(to right, blueviolet,rgb(253, 173, 187));
+    background-clip: text;
+    color: transparent;
+}
+h2{
+    padding-bottom: 10px;
+}
+.fa-solid.fa-money-check-dollar{
+    font-size: 1.5rem;
+    color:rgb(0, 255, 55) ;
+}
+.fa-solid.fa-people-arrows{
+    font-size: 1.5rem;
+    color: bisque;
+}
+.fa-solid.fa-heart{
+    font-size: 1.5rem;
+    color: violet;
+}
