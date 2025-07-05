@@ -16,15 +16,16 @@
     background:linear-gradient(to left,rgb(135, 1, 253),rgb(101, 23, 169)) ;
     width: 100%;
     max-width: 1100px;
-    min-height: 85vh;
+    min-height: 70vh;
     border-radius: 30px;
 }
 .heading{
     text-align: center;
     padding: 20px;
-    padding-top: 7vh;
+    padding-top: 20vh;
     font-size: clamp(1.2rem,2vw,5rem);
     color: white;
+    padding: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cards{
@@ -53,7 +54,7 @@
 }
 .fa-solid.fa-house-chimney{
     font-size: clamp(4rem,6vw,5rem);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     background: linear-gradient(to right, blueviolet,rgb(253, 173, 187));
     background-clip: text;
     color: transparent;
@@ -75,7 +76,7 @@ h2{
     color: violet;
 }
 .card:hover{
-    background-color: rgba(255, 255, 255, 0.479);
+    background-color: rgba(255, 255, 255, 0.509);
     cursor: pointer;
 }
 a button{
